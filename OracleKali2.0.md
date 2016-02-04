@@ -1,4 +1,5 @@
 **How to Setup Oracle in Kali 2.0** 
+
 I recently have started preparation
 for an exam which requires the use of Kali for testing and noticed that
 out of the box Kali 2.0 Sana or rolling do not support oracle. So I set
