@@ -101,8 +101,11 @@ these settings have been loaded, this can been seen:
     ORACLE_HOME=/opt/oracle/instantclient_12_1
 
 Optionally now you can reboot to double check these settings have been
-successfully applied. **Setting up Metasploit** The final stage in
-getting this all working is making metasploit happy, this step requires
+successfully applied. 
+
+**Setting up Metasploit** 
+
+The final stage in getting this all working is making metasploit happy, this step requires
 [ruby-oci8](https://github.com/kubo/ruby-oci8/archive/ruby-oci8-2.1.7.zip)
 to be downloaded. Navigate back to `/opt/oracle` and download it:
 
