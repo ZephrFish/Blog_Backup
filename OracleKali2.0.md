@@ -19,7 +19,11 @@ not work however your mileage may vary, if it doesn't work for you then
 follow this guide. First you will need to create an account on
 oracle.com in order to download the necessary files, don’t worry, a temp
 email works just fine as you don't need to confirm it in order to
-download necessary files. **Setup Directories & Acquire Relevant Files**
+download necessary files. 
+
+**Setup Directories & Acquire Relevant Files**
+
+
 First you'll need to create relevant directories to get things setup,
 create the directory `/opt/oracle` and then `cd` into it. Next you'll
 need to download the Oracle Instant Client files. Depending if you are
