@@ -53,8 +53,9 @@ them within /opt/oracle this should look similar to output below:
       inflating: instantclient_12_1/libclntsh.so.12.1  
       ----SNIP----
 
-**Changing file permissions and relevant paths** Once unzipped you
-should now have an instantclient\_12\_1 directory, this is all the files
+**Changing file permissions and relevant paths**
+
+Once unzipped you should now have an instantclient\_12\_1 directory, this is all the files
 required to get the `sqlplus` client working. In order to integrate with
 metasploit we also need to get some things linked up and additional to
 this ruby needs to be modified too. First you'll need to link a .so file
