@@ -1,4 +1,4 @@
-# How to Staticlly Compile NMAP
+# How to Statically Compile NMAP
 Here is a short explanation on how to compile nmap statically. 
 
 Version of nmap used: https://nmap.org/dist/nmap-7.11.tar.bz2
