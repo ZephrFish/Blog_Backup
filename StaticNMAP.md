@@ -30,10 +30,8 @@ And compile - this will mostly work:
 
 The final compilation step fails - the actual error is: `/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/../../../../x86_64-unknown-linux-gnu/bin/ld: dynamic STT_GNU_IFUNC symbol `strcmp' with pointer equality in `/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/../../../../lib/libc.a(strcmp.o)' can not be used when making an executable; recompile with -fPIE and relink with -pie`
 
-This is a nasty restriction caused by glibc, which forces some dynamic linking to glibc, even when we want a *static* compilation.
-
-## Solution 
-We have to hack the Makefile, to [make the compilation](http://stackoverflow.com/questions/26277283/gcc-linking-libc-static-and-some-other-library-dynamically-revisited) ''mostly'' static:
+## Making it Work
+Hacking the Makefile, to [make the compilation](http://stackoverflow.com/questions/26277283/gcc-linking-libc-static-and-some-other-library-dynamically-revisited) ''mostly'' static:
 
 1. Change the `LIBS =  -lnsock -lnbase -lpcre` line 54 to:
 
