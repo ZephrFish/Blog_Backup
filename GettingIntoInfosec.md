@@ -36,8 +36,4 @@ Alongside the resources it is also useful to familiarise yourself with the stand
 
 Other than the resources listed above there is also the option to test against live targets in the form of Bug Bounty hunting, I did a post earlier this year about this which can be found here:
 
-[Approaching Bug Bounty Schemes with an Ethical Mind-set](https://www.zerosec.co.uk/blog/write-ups/ethicalbounties/)
-
-I also did a blog post earlier last year about getting started which can be found here:
-
-[Getting Started with a Home Lab and Learning to Hack](https://www.zerosec.co.uk/blog/about/hackingstarted/)
+[Approaching Bug Bounty Schemes with an Ethical Mind-set](https://blog.zsec.uk/bounties/)
