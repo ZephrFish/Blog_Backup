@@ -1,10 +1,15 @@
 Currently at time of writing I'm ranked #1 finder of Bugs on https://hackerone.com/pornhub which is a nice position to hold. This post is to explain the techniques I've used to get to where I am and how I found my most recent $2500 bug on pornhub. To update this post also this finding has now been included within [Web Hacking 101](https://leanpub.com/web-hacking-101) by [Peter Yaworski](https://twitter.com/yaworsk).
 
 Difficulty: **Low**
+
 URL: **stage.pornhub.com**
+
 Report Link: https://hackerone.com/reports/119871
+
 Date Reported: **March 1st, 2016**
+
 Bounty Paid: **$2500**
+
 Twitter: https://twitter.com/ZephrFish
 
 ####Probing for Holes
