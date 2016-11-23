@@ -1,6 +1,9 @@
-# InfoSecTutorials
-A repository with various tutorials on how to do things in Pentesting, setup environments and other things
+# ZeroSec Blog Backup
+This repo serves as a mirror to my [blog](https://blog.zsec.uk), should the site go down or change all my archives will be stored here too.
 
-# Disclaimer
-For research purposes only, do not use this on any target which you do not have permission to do so.
+- - -
 
+# Table of Contents
+- Learning The Ropes 101
+  - Writeups
+    - Web App Hacking
