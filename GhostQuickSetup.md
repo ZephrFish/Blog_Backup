@@ -72,7 +72,7 @@ Assuming you've already read [part 1](https://blog.zsec.uk/quick-server-p1/). No
 ####Setting up Mail on Ghost
 Once this script has been run, it is highly recommended that you setup smtp with ghost for password resets, (SUPER LIFE SAVER). To do this follow the steps below:
 
- 1. Create an account on  [mailgun](mailgun.com) (it's free)
+ 1. Create an account on  [mailgun](http://www.mailgun.com) (it's free)
  2. Once you've signed up and activated your accrount navigate to mailgun account>domains>click on your domain name and take note of `Default SMTP Login` & `Default Password`
  3. Navigate to your server where ghost is installed, Open up config.js in your favorite command line editor and Put your ‘Login’ from mailgun between the quote marks next to ‘user’ and your ‘Password’ from mailgun inside the quotes next to ‘pass’.
 
